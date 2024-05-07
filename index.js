@@ -19,5 +19,5 @@ let words = answers.sentance.trim().split(" ");
 console.log("=".repeat(60));
 console.log(chalk.bold("Sentance Words:"));
 console.log(words);
-console.log(chalk.bold(`\n - worf count: ${chalk.bold.redBright(words.length)}`));
+console.log(chalk.bold(`\n - word count: ${chalk.bold.redBright(words.length)}`));
 console.log("=".repeat(60));
